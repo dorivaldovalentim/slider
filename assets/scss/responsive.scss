@@ -1,0 +1,59 @@
+/*
+ * Folha de estilo responsável pela responsividade
+ */
+
+
+/** Trabalhando nos mixins para cada device */
+
+@mixin extra-small {
+	@media (max-width: 575px) {
+		@content;
+	}
+}
+
+@mixin small {
+	@media (min-width: 576px) and (max-width: 767px) {
+		@content;
+	}
+}
+
+@mixin medium {
+	@media (min-width: 768px) and (max-width: 991px) {
+		@content;
+	}
+}
+
+@mixin large {
+	@media (min-width: 992px) and (max-width: 1199px) {
+		@content;
+	}
+}
+
+@mixin extra-large {
+	@media (min-width: 1200px) {
+		@content;
+	}
+}
+
+
+/** Trabalhando na responsividade */
+
+@include extra-small {
+	img {
+		object-fit: fill
+	}
+
+	.section-area {
+		height: 70vh
+	}
+
+	.slide-description {
+		padding: 35px
+	}
+}
+
+@include small {
+	.section-area {
+		height: 70vh
+	}
+}

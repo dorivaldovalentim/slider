@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/*
+ * Folha de estilo responsável pela responsividade
+ */
+/** Trabalhando nos mixins para cada device */
+/** Trabalhando na responsividade */
+@media (max-width: 575px) {
+  img {
+    object-fit: fill;
+  }
+
+  .section-area {
+    height: 70vh;
+  }
+
+  .slide-description {
+    padding: 35px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .section-area {
+    height: 70vh;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Slide com jQuery</title>
+
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<link rel="stylesheet" href="assets/css/responsive.css" />
+	</head>
+
+	<body>
+		<header class="header-area">
+			<h1 class="title">Criando slide com jQuery</h1>
+		</header>
+
+		<section class="section-area">
+			<div class="slide-navigation">
+				<ul class="slide-navigation-list">
+					<li class="list-item item-active">
+						<a href="" class="list-item-link" data-id="#uzumakiBoruto">
+							<span class="fa fa-circle"></span>
+						</a>
+					</li>
+					<li class="list-item">
+						<a href="" class="list-item-link" data-id="#uzumakiNaruto">
+							<span class="fa fa-circle"></span>
+						</a>
+					</li>
+					<li class="list-item">
+						<a href="" class="list-item-link" data-id="#teamKakashi">
+							<span class="fa fa-circle"></span>
+						</a>
+					</li>
+					<li class="list-item">
+						<a href="" class="list-item-link" data-id="#jinchuriki">
+							<span class="fa fa-circle"></span>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="slide-area">
+				<div class="slide-active slide-item" id="uzumakiBoruto">
+					<img src="assets/images/slide1.png" alt="" class="slide-image" />
+					<a href="#" class="btn-seemore">
+						<span class="fa fa-arrow-up"></span>
+					</a>
+					<div class="slide-info">
+						<h2 class="slide-title">Uzumaki Boruto</h2>
+						<p class="slide-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam sed harum laudantium impedit recusandae consectetur praesentium cupiditate obcaecati vitae?</p>
+						<a href="#" class="btn-seeless">
+							<span class="fa fa-arrow-down"></span>
+						</a>
+					</div>
+				</div>
+
+				<div class="slide-item" id="uzumakiNaruto">
+					<img src="assets/images/slide2.jfif" alt="" class="slide-image" />
+					<a href="#" class="btn-seemore">
+						<span class="fa fa-arrow-up"></span>
+					</a>
+					<div class="slide-info">
+						<h2 class="slide-title">Uzumaki Naruto</h2>
+						<p class="slide-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam sed harum laudantium impedit recusandae consectetur praesentium cupiditate obcaecati vitae?</p>
+						<a href="#" class="btn-seeless">
+							<span class="fa fa-arrow-down"></span>
+						</a>
+					</div>
+				</div>
+
+				<div class="slide-item" id="teamKakashi">
+					<img src="assets/images/slide3.jpg" alt="" class="slide-image" />
+					<a href="#" class="btn-seemore">
+						<span class="fa fa-arrow-up"></span>
+					</a>
+					<div class="slide-info">
+						<h2 class="slide-title">Team Kakashi</h2>
+						<p class="slide-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam sed harum laudantium impedit recusandae consectetur praesentium cupiditate obcaecati vitae?</p>
+						<a href="#" class="btn-seeless">
+							<span class="fa fa-arrow-down"></span>
+						</a>
+					</div>
+				</div>
+
+				<div class="slide-item" id="jinchuriki">
+					<img src="assets/images/slide4.jpg" alt="" class="slide-image" />
+					<a href="#" class="btn-seemore">
+						<span class="fa fa-arrow-up"></span>
+					</a>
+					<div class="slide-info">
+						<h2 class="slide-title">Jinchurikis</h2>
+						<p class="slide-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam sed harum laudantium impedit recusandae consectetur praesentium cupiditate obcaecati vitae?</p>
+						<a href="#" class="btn-seeless">
+							<span class="fa fa-arrow-down"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</body>
+
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/slider.js"></script>
+</html>
